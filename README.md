@@ -69,13 +69,13 @@ The second table of Example 1 provides a set of solutions; however, there is no 
 rotate [, options]  
 
 There are infinite possible rotations; however, there are certain methods which help to specify the kind of solution we are seeking. We can adapt our assumptions about factors being independent of each other at this stage; in the options you can specify:
-- oblique 	For an oblique rotation to be applied, instead of the default, which is the orthogonal rotation. The factors before rotation are usually orthogonal, whereas the oblique rotated factors can be correlated
+- **oblique** 	For an oblique rotation to be applied, instead of the default, which is the orthogonal rotation. The factors before rotation are usually orthogonal, whereas the oblique rotated factors can be correlated
 
 
 Depending on the choice between an orthogonal and an oblique rotation, the following rotation methods can be specified (this is a subset of the most commonly used rotations; for full details, consult the -rotate- chapter of the Stata manual):
-- varimax	This is the default for an orthogonal rotation. It seeks the rotated loadings that maximize the variance of the squared loadings for each factor. The idea is to make some loadings as large as possible, and the rest as small as possible in absolute value
-- quartimax 	This is an alternative to varimax; it maximizes the variance of the squared loadings within the variables and tends to produce factors with high loadings for all variables
-- oblimin(#)	This option is suitable for both orthogonal and oblique rotations. The default is oblimin(0), with values above 0 not recommended for oblique rotations. 
+- **varimax**	This is the default for an orthogonal rotation. It seeks the rotated loadings that maximize the variance of the squared loadings for each factor. The idea is to make some loadings as large as possible, and the rest as small as possible in absolute value
+- **quartimax** 	This is an alternative to varimax; it maximizes the variance of the squared loadings within the variables and tends to produce factors with high loadings for all variables
+- **oblimin(#**)	This option is suitable for both orthogonal and oblique rotations. The default is **oblimin(0)**, with values above 0 not recommended for oblique rotations. 
   
 ### Example 2: Final output
 Based on the output from Example 1, the researcher decides to model the data using a two factor structure, performing an oblique rotation due to the likelihood of factors being correlated. The full output is displayed in the log file. After rotating, a further useful command is -sortl- which sorts the variables in order of factor loadings, making it easier to see which variables load in each factor. The final set of factor loadings is shown below. 
