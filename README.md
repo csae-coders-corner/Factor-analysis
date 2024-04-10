@@ -17,7 +17,9 @@ As this example illustrates, EFA can be a very useful tool. For researchers hopi
 It is very hard to establish what is driving correlations when presented with a correlation matrix of a large number of measures. EFA works by asking what might account for all of these correlations. In other words, EFA is a method for investigating whether a number of variables of interest Y_1, Y_2, …, Y_k, are linearly related to a smaller number of unobservable factors F_1, F_2, …, F_k. For example:
 
 Y_1=β_10+β_11 F_1+β_12 F_2+e_1
+
 Y_2=β_20+β_21 F_1+β_22 F_2+e_2
+
 Y_3=β_30+β_31 F_1+β_32 F_2+e_3
 
 Coefficients β_ij are referred to as factor loadings, of variable Y_i on factor F_j. As factors are unobservable, we cannot simply estimate the loadings by regression. Instead, we use factor analysis models. The simplest example is one which satisfies the following assumptions: 
