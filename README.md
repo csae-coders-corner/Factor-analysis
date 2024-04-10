@@ -51,7 +51,7 @@ The command offers a choice of the following methods for estimating factor loadi
 - **ipf**	iterated principal factor. This method re-estimates the communalities iteratively 
 - **ml**	maximum likelihood factor. This method assumes that the data are multivariate normal distributed
 
-  ### Example 1
+### Example 1
   Example 1 shows the output displayed when using the default method for estimating the factor structure of a set of measures designed to capture self-efficacy, or a person’s judgement of how well they can deal with prospective situations. The log file shows output for this example using the different estimation methods. 
 
 The first column of the first table, Factor, will always equal the number of variables: in this case we tested 10 measures trying to capture self-efficacy. The eigenvalues in the second column show the total variance accounted for by each factor. The difference column shows the magnitude of the differences between one eigenvalue and the next. Proportion indicates the relative weight of each factor in the total variance: for example, Factor 1 accounts for: 2.72789/(2.72789+...-0.16821)=1.1351of the variance. Cumulative column simply shows the cumulative proportion of the variance accounted for, always ending in 1. The second table provides the estimates of factor loadings and uniqueness.  
