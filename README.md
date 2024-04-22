@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_FactorAnalysis](https://github.com/csae-coders-corner/Factor-analysis/assets/148211163/05e2ddd5-42f5-46a0-913d-26abd76ff0d1)
+
 # Factor-analysis
 ## Introduction
 Factor analysis is a statistical technique used widely in psychology and the social sciences for the purpose of identifying unobservable constructs (factors) from a set of observables. There are two primary uses of factor analysis: 
